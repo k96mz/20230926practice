@@ -11,7 +11,7 @@ const map = new maplibregl.Map({
   center: [138, 37], // 初期表示の中心
   minZoom: 5, // 最小ズーム
   mazZoom: 18, // 最大ズーム
-  maxBounds: [122, 20, 154, 50], // 表示可能な範囲
+  // maxBounds: [122, 20, 154, 50], // 表示可能な範囲、制限していると現在地を表示した時に、アメリカに飛ばない。
   style: {
     version: 8,
     sources: {
